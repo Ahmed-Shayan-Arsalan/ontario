@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 
 # API key and model initialization
 groq_api_key = "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"
-llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.1-70b-versatile")
+llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.1-8b-instant")
 
 # Define prompts for agents (3rd-grade, 6th-8th grade, 9th grade, 10th grade)
 question_generation_prompt_3rd = """
